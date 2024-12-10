@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open-Sans';
+}
+
+.icone {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.title-jogo {
+    margin-top: 30px;
+}
+
+.btn-baixar {
+    padding: 8px;
+    font-size: 14px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-baixar:hover {
+    border: none;
+    background: blue;
+    color: white;
+    transition: all .5s ease-in-out;
+    border: none;
+}
+
+.text {
+    flex: 1;
+    text-indent: 20px;
+    font-size: 17px;
+}
+
+.img-demo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    align-self: flex-start;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.representacao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 100%;
+    gap: 10px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.representacao img {
+    width: calc(25% - 10px);
+    border-radius: 8px;
+}
+
+.title-video {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin: 40px;
+}
+
+.sub-desc {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.title-plataformas {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.plataformas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plataformas img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+}
